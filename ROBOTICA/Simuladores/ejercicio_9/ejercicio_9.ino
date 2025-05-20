@@ -5,7 +5,7 @@ int analogVal;
 
 void setup() { 
   // put your setup code here, to run once: 
-  pinMode(13, INPUT); 
+  pinMode(analogPin, INPUT); 
   Serial.begin(9600); 
 } 
 
